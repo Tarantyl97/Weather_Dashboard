@@ -1,0 +1,47 @@
+.infoRight {
+    text-align: start;
+}
+
+.title {
+    color: rgb(43 115 178);
+}
+
+.btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    color: rgb(240, 248, 255);
+    font-family: 'Rubik';
+    height: 30px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 481px), (max-width: 660px) {
+    .infoRight {
+        text-align: center;
+    }
+
+    .title {
+        color: rgb(43 115 178);
+    }
+}
+
+@media screen and (max-width: 377px), (max-width: 480px) {
+    .infoRight {
+        text-align: center;
+    }
+
+    .title {
+        color: rgb(43 115 178);
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .infoRight {
+        text-align: center;
+    }
+
+    .title {
+        color: rgb(43 115 178);
+    }
+}

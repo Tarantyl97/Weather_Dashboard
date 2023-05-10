@@ -1,0 +1,37 @@
+.search {
+    display: flex;
+    height: 20px;
+    gap: 5px;
+}
+
+.search__btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.search__btn img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: -1;
+}
+
+.search__input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 481px), (max-width: 660px) {
+    .search {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 377px), (max-width: 480px) {
+    .search {
+        justify-content: center;
+    }
+}

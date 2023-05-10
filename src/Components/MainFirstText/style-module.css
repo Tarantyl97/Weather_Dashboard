@@ -1,0 +1,11 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(240, 248, 255);
+  }
+  
+.title  .title__text {
+    margin: 0;
+    
+  }

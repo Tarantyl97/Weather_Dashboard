@@ -1,0 +1,32 @@
+.all {
+    width: 300px;
+    border-radius: 2%;
+    border-right: 1px solid black;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+
+@media screen and (max-width: 481px), (max-width: 660px) {
+    .all {
+        width: auto;
+        border: 1px solid black;
+        border-radius: 1%;
+    }
+}
+
+@media screen and (max-width: 377px), (max-width: 480px) {
+    .all {
+        width: auto;
+        border: 1px solid black;
+        border-radius: 1%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .all {
+        width: auto;
+        border: 1px solid black;
+        border-radius: 1%;
+    }
+
+}

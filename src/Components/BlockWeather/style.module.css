@@ -1,0 +1,60 @@
+.blockFive {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    min-width: 305px;
+    margin-top: 20px;
+}
+
+.blockFive p {
+    margin: 10px 0;
+}
+
+.blockFive p:nth-child(2) {
+    height: 50px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.blockFive div {
+    text-align: start;
+    margin: 10px 10px;
+    width: 130px;
+}
+
+@media screen and (max-width: 481px), (max-width: 660px) {
+    .blockFive {
+        backdrop-filter: blur(10px);
+        justify-content: center;
+    }
+
+    .blockFive div {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 377px), (max-width: 480px) {
+    .blockFive {
+        backdrop-filter: blur(10px);
+        justify-content: center;
+    }
+
+    .blockFive div {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 376px) {
+    .blockFive {
+        backdrop-filter: blur(10px);
+        justify-content: center;
+    }
+
+    .blockFive div {
+        text-align: center;
+    }
+    
+}
+

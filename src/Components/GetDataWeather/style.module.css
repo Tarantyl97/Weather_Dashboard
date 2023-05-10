@@ -1,0 +1,41 @@
+.info {
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: minmax(100px, 250px);
+    text-align: start;
+    grid-template-rows: auto;
+    column-gap: 15px;
+}
+
+.info p  {
+    margin: 7px;
+}
+
+.info h1  {
+    margin: 7px;
+}
+
+@media screen and (max-width: 481px), (max-width: 660px) {
+    .info {
+        max-width: inherit;
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 377px), (max-width: 480px) {
+    .info {
+        max-width: inherit;
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .info {
+        display: block;
+    }
+
+}
